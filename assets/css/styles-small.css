@@ -1,0 +1,77 @@
+.article-container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "mmnu"
+    "cont"
+    "auth"
+    "foot";
+
+  grid-template-columns: 100%;
+  grid-template-rows: 50px min-content;
+}
+
+.article-content-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "mmnu"
+    "head"
+    "cont"
+    "sbar"
+    "foot";
+
+  grid-template-columns: 100%;
+  grid-template-rows: 50px max-content 500px repeat(2, max-content);
+}
+
+.content {
+  background-image: linear-gradient(#fff7c6, #d0caa5);
+  display: grid;
+  grid-area: cont;
+  grid-template-areas:
+    "cnt-maj1"
+    "cnt-maj2"
+    "cnt-min1"
+    "cnt-min2"
+    "cnt-min3";
+
+  grid-template-columns: 100%;
+  grid-template-rows: 2fr 2fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  position: relative;
+
+  margin: 8px;
+  padding: 8px;
+
+  display: flex; /* makes text appear in bottom-right corner of grid cell */
+  align-items: flex-end; /* bottom */
+  justify-content: end; /* right */
+}
+
+.grid-item-label-major {
+  border-radius: 7px 14px;
+  font-size: 1.25em;
+  font-weight: 500;
+  padding: 0px 8px;
+}
+
+.grid-item-label-minor {
+  border-radius: 3px 10px;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0px 7px;
+}
+
+@media screen and (max-width: 549px) {
+  .main-menu {
+    overflow-x: auto;
+  }
+}

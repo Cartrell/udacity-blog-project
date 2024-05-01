@@ -1,0 +1,38 @@
+@media(min-width: 550px) {
+  .article-image {
+    background-color: rgba(0, 0, 0, 0.1);
+    float: right;
+    padding: 10px;
+  }
+
+  .article-content-image-container {
+    /* unset these, because they are only needed for small screens */
+    display: unset;
+    justify-content: unset;
+  }
+
+  .content {
+    display: grid;
+    grid-area: cont;
+    grid-template-areas:
+      "cnt-maj1 cnt-maj1 cnt-maj1 cnt-maj2 cnt-maj2 cnt-maj2"
+      "cnt-min1 cnt-min1 cnt-min2 cnt-min2 cnt-min3 cnt-min3";
+  
+    grid-template-columns: repeat(6, 16.67%);
+    grid-template-rows: 60% 40%;
+  }
+
+  .grid-item-label-major {
+    border-radius: 9px 18px;
+    font-size: 1.625em;
+    font-weight: 600;
+    padding: 0px 8px;
+  }
+
+  .grid-item-label-minor {
+    border-radius: 4px 14px;
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0px 7px;
+  }
+}

@@ -1,0 +1,29 @@
+@media(min-width: 900px) {
+  .container {
+    background-image: linear-gradient(#fff7c6, #d0caa5);
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+      "mmnu mmnu mmnu mmnu mmnu mmnu mmnu mmnu"
+      "head head head head head head head head"
+      "cont cont cont cont cont cont sbar sbar"
+      "foot foot foot foot foot foot foot foot";
+
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 50px max-content 500px 50px;
+  }
+
+  .grid-item-label-major {
+    border-radius: 15px 30px;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0px 12px;
+  }
+
+  .grid-item-label-minor {
+    border-radius: 5px 18px;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0px 7px;
+  }
+}
