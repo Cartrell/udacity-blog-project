@@ -1,14 +1,18 @@
 @media(min-width: 550px) {
-  .article-image {
-    background-color: rgba(0, 0, 0, 0.1);
+  .article-content-image-container {
+    /* unset this, because they are only needed for small screens */
+    display: unset;
     float: right;
+    margin: 0;
     padding: 10px;
   }
+  
+  .button-major {
+    font: 600 1.5em "Dekko", sans-serif;
+  }
 
-  .article-content-image-container {
-    /* unset these, because they are only needed for small screens */
-    display: unset;
-    justify-content: unset;
+  .button-minor {
+    font: 500 1em "Dekko", sans-serif;
   }
 
   .content {
@@ -24,15 +28,11 @@
 
   .grid-item-label-major {
     border-radius: 9px 18px;
-    font-size: 1.625em;
-    font-weight: 600;
     padding: 0px 8px;
   }
 
   .grid-item-label-minor {
     border-radius: 4px 14px;
-    font-size: 1em;
-    font-weight: 500;
     padding: 0px 7px;
   }
 }

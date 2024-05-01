@@ -13,21 +13,37 @@
   </head>
 
   <body>
-    <div class="article-container">
-      <div class="main-menu frame">
-        <a href="../../index.html" class="menu-item"><div>Home</div></a>
-        <a class="menu-item" href="#">Items</a>
-        <a class="menu-item" href="#">Monsters</a>
-        <a class="menu-item" href="#">Npcs</a>
-        <a class="menu-item" href="#">Biomes</a>
-      </div>
+    <section class="article-container">
+      <nav class="main-menu frame">
+        <ul class="main-menu-list">
+          <li class="menu-item">
+            <a class="menu-item-link" href="../../index.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item-link" href="#">Items</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item-link" href="#">Monsters</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item-link" href="#">Npcs</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-item-link" href="#">Biomes</a>
+          </li>
+        </ul>
+      </nav>
 
-      <div class="article-content">
+      <section class="article-content">
         <h1 class="article-content-header">The Guide</h1>
         <hr/>
-        <div class="article-content-image-container">
-          <img class="article-image frame" src="../../assets/images/npcs/guide.webp" alt="The Guide">
-        </div>
+        <figure class="article-content-image-container">
+          <section class="article-content-image-container-section frame">
+            <img class="article-image" src="../../assets/images/npcs/guide.webp"
+              alt="King Slime">
+            <figcaption class="article-image-caption">The Guide</figcaption>
+          </section>
+        </figure>
 
         <h2>Brief</h2>
         <p>The Guide is usually the first NPC you will encounter, as he spawns near you when the
@@ -37,8 +53,8 @@
           <a href="https://diablo.fandom.com/wiki/Deckard_Cain" target="_blank">Deckard Kain</a>
           of this game.</p>
         <p>He defends himself using a wooden bow and arrow.</p>
-        <p>If he dies while in the Underworld via lava, or if a Guide Voodoo Doo is destroyed in
-          the Underworld, it will summon the Wall of Flesh.</p>
+        <p><strong>Beware!</strong> If he dies while in the Underworld via lava, or if a Guide Voodoo Doo is destroyed in
+          the Underworld, it will summon the <em>Wall of Flesh</em>.</p>
         <p>While he's not particularly useful (he neither sells anything, nor is he involved in
           quests), he does provide tips on game progression in addition to his vast knowledge
           of crafting recipes.</p>
@@ -46,18 +62,18 @@
         <h3>Spawning Conditions</h3>
         <p>Unlike most other NPCs, the Guide has no specific criteria since he automatically spawns
           at the game. However, if he is killed, he'll need a house before he will resawn.</p>
-      </div>
+      </section>
 
-      <div class="author-container">
+      <sectio class="author-container">
         <hr />
         <h2 class="author-header">About the Author</h2>
         <img src="../../assets/images/ui/ziro.webp" alt="by Cartrell" class="author-container-avatar">
         <p>Cartrell, based in Detroit, has been a game programmer for over 10 years.
           He specializes in coding single-player, 2D web-based HTML5 games using <a href="https://phaser.io/" target="_blank">Phaser</a>.</p>
-      </div>
+      </sectio>
 
-      <div class="footer frame">
-        <div class="footer-link-icons">
+      <footer class="footer frame">
+        <section class="footer-link-icons">
           <a href="https://www.upwork.com/freelancers/~0180f72de0fb06b175" target="_blank">
             <img src="../../assets/images/ui/upwork-icon.webp" alt="Hire me on Upwork"
               class="footer-link-icon"></a>
@@ -81,13 +97,13 @@
           <a href="https://twitter.com/CartrellHampton" target="_blank">
             <img src="../../assets/images/ui/x.webp" alt="Visit my X account"
               class="footer-link-icon"></a>
-        </div>
+        </section>
 
-        <div class="footer-attributions">
+        <section class="footer-attributions">
           <span>Terraria images are from the <a href="https://terraria.wiki.gg/wiki/Terraria_Wiki" target="_blank">Terraria Wiki</a>, under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">BY-NC-SA 3.0</a></span>
           <img src="../../assets/images/ui/by-nc-sa.png" alt="Attribution-NonCommercial-ShareAlike 3.0">
-        </div>
-      </div>
-    </div>
+        </section>
+      </footer>
+    </section>
   </body>
 </html>

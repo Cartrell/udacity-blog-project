@@ -7,3 +7,6 @@ The requirements are you use your HTML and CSS skills to build out a personal bl
 Instead of making a traditional blog, I decided to make a "wiki-like", using the popular game, [Terraria](https://terraria.wiki.gg/wiki/Terraria_Wiki), as inspiration.
 
 I've included five articles that briefly overview a few of the game's features.
+
+You can view this project live here:
+[https://gameplaycoder.com/projects/udacity/blog-project](https://gameplaycoder.com/projects/udacity/blog-project)
