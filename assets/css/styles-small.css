@@ -64,14 +64,8 @@
 }
 
 .grid-item {
-  position: relative;
-
   margin: 8px;
   padding: 8px;
-
-  display: flex; /* makes text appear in bottom-right corner of grid cell */
-  align-items: flex-end; /* bottom */
-  justify-content: end; /* right */
 }
 
 .grid-item-label-major {
