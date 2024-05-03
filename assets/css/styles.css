@@ -4,6 +4,7 @@
 @import url(styles-large.css);
 
 body {
+  background-image: linear-gradient(#fff7c6, #d0caa5);
   font-family: "Dekko", sans-serif;
 }
 
@@ -11,10 +12,6 @@ li img {
   height: 32px;
   width: 32px;
   vertical-align: middle;
-}
-
-.article-container {
-  background-image: linear-gradient(#fff7c6, #d0caa5);
 }
 
 .article-content {
@@ -161,10 +158,11 @@ li img {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.grid-item-link:hover
-.grid-item-image {
-  filter: brightness(150%);
-  transform: scale(1.1);
+.grid-item-link:hover {
+  .grid-item-image {
+    filter: brightness(150%);
+    transform: scale(1.1);
+  }
 }
 
 .grid-item-link:link {
@@ -187,7 +185,6 @@ li img {
 
 .main-menu {
   background: url(../images/ui/header-back-tile.webp) repeat-x 0% 0%/auto 100%;
-  display: flex;
   grid-area: mmnu;
 }
 

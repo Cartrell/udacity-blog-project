@@ -1,6 +1,6 @@
 @media(min-width: 550px) {
   .article-content-image-container {
-    /* unset this, because they are only needed for small screens */
+    /* unset this, because it's only needed for small screens */
     display: unset;
     float: right;
     margin: 0;
@@ -21,8 +21,8 @@
     grid-template-areas:
       "cnt-maj1 cnt-maj1 cnt-maj1 cnt-maj2 cnt-maj2 cnt-maj2"
       "cnt-min1 cnt-min1 cnt-min2 cnt-min2 cnt-min3 cnt-min3";
-  
-    grid-template-columns: repeat(6, 16.67%);
+
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 60% 40%;
   }
 
